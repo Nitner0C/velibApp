@@ -9,7 +9,7 @@
 import Foundation
 
 // API
-let apiKey                  = "3324028b8c0c3ef2cd672de367a99c44c77f1f26"
+let apiKey                  = // YOUR API KEY HERE!
 let apiUrl                  = "https://api.jcdecaux.com/vls/v1/"
 
 

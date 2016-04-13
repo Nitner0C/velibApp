@@ -220,7 +220,7 @@
                                     </label>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="2vk-uB-dKu">
                                         <rect key="frame" x="5" y="80" width="550" height="115"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="SFP-U4-o21">
                                             <size key="itemSize" width="25" height="25"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>

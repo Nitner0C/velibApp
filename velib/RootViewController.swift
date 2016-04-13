@@ -88,10 +88,6 @@ class RootViewController: UIViewController, MKMapViewDelegate, BikeSelectionPopi
         }
     }
     
-    func displayStationDetails(station : Station) {
-        
-    }
-    
     override func didReceiveMemoryWarning() {
         //
     }

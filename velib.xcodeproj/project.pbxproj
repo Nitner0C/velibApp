@@ -8,20 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		451A7D551CBD067E00C22AC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A7D541CBD067E00C22AC9 /* AppDelegate.swift */; };
-		451A7D571CBD067E00C22AC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A7D561CBD067E00C22AC9 /* ViewController.swift */; };
 		451A7D5A1CBD067E00C22AC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451A7D581CBD067E00C22AC9 /* Main.storyboard */; };
 		451A7D5C1CBD067E00C22AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451A7D5B1CBD067E00C22AC9 /* Assets.xcassets */; };
 		451A7D5F1CBD067E00C22AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451A7D5D1CBD067E00C22AC9 /* LaunchScreen.storyboard */; };
+		451A7D6D1CBD072D00C22AC9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A7D6C1CBD072D00C22AC9 /* Constants.swift */; };
+		451A7D6F1CBD08DD00C22AC9 /* Alamo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451A7D6E1CBD08DD00C22AC9 /* Alamo.swift */; };
+		451A7D711CBD093E00C22AC9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451A7D701CBD093E00C22AC9 /* CoreLocation.framework */; };
+		451A7D731CBD094400C22AC9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451A7D721CBD094400C22AC9 /* MapKit.framework */; };
+		451B5EE81CBE823200D77C7F /* BikeSelectionPopinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B5EE71CBE823200D77C7F /* BikeSelectionPopinViewController.swift */; };
+		451B5EEB1CBE8B5D00D77C7F /* StationDetailsPopinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451B5EEA1CBE8B5D00D77C7F /* StationDetailsPopinViewController.swift */; };
+		45D4FEDA1CBD3ED400B76E29 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D4FED91CBD3ED400B76E29 /* RootViewController.swift */; };
+		45D4FEDC1CBD419400B76E29 /* Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D4FEDB1CBD419400B76E29 /* Contract.swift */; };
+		45D4FEDF1CBD43F500B76E29 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D4FEDE1CBD43F500B76E29 /* Station.swift */; };
+		45D4FEE31CBD494100B76E29 /* ContractManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D4FEE21CBD494100B76E29 /* ContractManager.swift */; };
+		45D4FEE51CBD4D0600B76E29 /* StationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D4FEE41CBD4D0600B76E29 /* StationManager.swift */; };
+		45D4FEE71CBD641000B76E29 /* PointAnnotationStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D4FEE61CBD641000B76E29 /* PointAnnotationStation.swift */; };
+		C2813FF760AD9A0A145B9739 /* Pods_velib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B584B833A9C8804B18B9CEA /* Pods_velib.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B584B833A9C8804B18B9CEA /* Pods_velib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_velib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CCCF417463C8ABDD777B2C /* Pods-velib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-velib.release.xcconfig"; path = "Pods/Target Support Files/Pods-velib/Pods-velib.release.xcconfig"; sourceTree = "<group>"; };
 		451A7D511CBD067E00C22AC9 /* velib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = velib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		451A7D541CBD067E00C22AC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		451A7D561CBD067E00C22AC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		451A7D591CBD067E00C22AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		451A7D5B1CBD067E00C22AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		451A7D5E1CBD067E00C22AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		451A7D601CBD067E00C22AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		451A7D6C1CBD072D00C22AC9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		451A7D6E1CBD08DD00C22AC9 /* Alamo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamo.swift; sourceTree = "<group>"; };
+		451A7D701CBD093E00C22AC9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		451A7D721CBD094400C22AC9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		451B5EE71CBE823200D77C7F /* BikeSelectionPopinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeSelectionPopinViewController.swift; sourceTree = "<group>"; };
+		451B5EEA1CBE8B5D00D77C7F /* StationDetailsPopinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationDetailsPopinViewController.swift; sourceTree = "<group>"; };
+		45D4FED91CBD3ED400B76E29 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		45D4FEDB1CBD419400B76E29 /* Contract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contract.swift; sourceTree = "<group>"; };
+		45D4FEDE1CBD43F500B76E29 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		45D4FEE21CBD494100B76E29 /* ContractManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContractManager.swift; sourceTree = "<group>"; };
+		45D4FEE41CBD4D0600B76E29 /* StationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationManager.swift; sourceTree = "<group>"; };
+		45D4FEE61CBD641000B76E29 /* PointAnnotationStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointAnnotationStation.swift; sourceTree = "<group>"; };
+		B02C1D76668022498BCFEEC0 /* Pods-velib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-velib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-velib/Pods-velib.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				451A7D731CBD094400C22AC9 /* MapKit.framework in Frameworks */,
+				451A7D711CBD093E00C22AC9 /* CoreLocation.framework in Frameworks */,
+				C2813FF760AD9A0A145B9739 /* Pods_velib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +69,8 @@
 			children = (
 				451A7D531CBD067E00C22AC9 /* velib */,
 				451A7D521CBD067E00C22AC9 /* Products */,
+				B26DEE65C090ACB77D3E4C2E /* Pods */,
+				A0D13EF4982C0255229F0CE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +85,82 @@
 		451A7D531CBD067E00C22AC9 /* velib */ = {
 			isa = PBXGroup;
 			children = (
+				451A7D6B1CBD071900C22AC9 /* Utils */,
+				451A7D6A1CBD06F100C22AC9 /* Controllers */,
+				451A7D691CBD06E800C22AC9 /* Managers */,
+				451A7D681CBD06E100C22AC9 /* Models */,
+				451A7D661CBD068B00C22AC9 /* Supporting Files */,
+			);
+			path = velib;
+			sourceTree = "<group>";
+		};
+		451A7D661CBD068B00C22AC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				451A7D541CBD067E00C22AC9 /* AppDelegate.swift */,
-				451A7D561CBD067E00C22AC9 /* ViewController.swift */,
 				451A7D581CBD067E00C22AC9 /* Main.storyboard */,
 				451A7D5B1CBD067E00C22AC9 /* Assets.xcassets */,
 				451A7D5D1CBD067E00C22AC9 /* LaunchScreen.storyboard */,
 				451A7D601CBD067E00C22AC9 /* Info.plist */,
 			);
-			path = velib;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		451A7D681CBD06E100C22AC9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				45D4FEDB1CBD419400B76E29 /* Contract.swift */,
+				45D4FEDE1CBD43F500B76E29 /* Station.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		451A7D691CBD06E800C22AC9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				45D4FEE21CBD494100B76E29 /* ContractManager.swift */,
+				45D4FEE41CBD4D0600B76E29 /* StationManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		451A7D6A1CBD06F100C22AC9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45D4FED91CBD3ED400B76E29 /* RootViewController.swift */,
+				45D4FEE61CBD641000B76E29 /* PointAnnotationStation.swift */,
+				451B5EE71CBE823200D77C7F /* BikeSelectionPopinViewController.swift */,
+				451B5EEA1CBE8B5D00D77C7F /* StationDetailsPopinViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		451A7D6B1CBD071900C22AC9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				451A7D6C1CBD072D00C22AC9 /* Constants.swift */,
+				451A7D6E1CBD08DD00C22AC9 /* Alamo.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		A0D13EF4982C0255229F0CE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				451A7D721CBD094400C22AC9 /* MapKit.framework */,
+				451A7D701CBD093E00C22AC9 /* CoreLocation.framework */,
+				0B584B833A9C8804B18B9CEA /* Pods_velib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B26DEE65C090ACB77D3E4C2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B02C1D76668022498BCFEEC0 /* Pods-velib.debug.xcconfig */,
+				18CCCF417463C8ABDD777B2C /* Pods-velib.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 451A7D631CBD067E00C22AC9 /* Build configuration list for PBXNativeTarget "velib" */;
 			buildPhases = (
+				A967730B858105A98F13B705 /* Check Pods Manifest.lock */,
 				451A7D4D1CBD067E00C22AC9 /* Sources */,
 				451A7D4E1CBD067E00C22AC9 /* Frameworks */,
 				451A7D4F1CBD067E00C22AC9 /* Resources */,
+				B762F81F76BC7253244F7596 /* Embed Pods Frameworks */,
+				F8A11F4C948B050170B36AAC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +232,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A967730B858105A98F13B705 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B762F81F76BC7253244F7596 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-velib/Pods-velib-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A11F4C948B050170B36AAC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-velib/Pods-velib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		451A7D4D1CBD067E00C22AC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				451A7D571CBD067E00C22AC9 /* ViewController.swift in Sources */,
+				451A7D6F1CBD08DD00C22AC9 /* Alamo.swift in Sources */,
 				451A7D551CBD067E00C22AC9 /* AppDelegate.swift in Sources */,
+				45D4FEE71CBD641000B76E29 /* PointAnnotationStation.swift in Sources */,
+				45D4FEE31CBD494100B76E29 /* ContractManager.swift in Sources */,
+				45D4FEDA1CBD3ED400B76E29 /* RootViewController.swift in Sources */,
+				451B5EE81CBE823200D77C7F /* BikeSelectionPopinViewController.swift in Sources */,
+				45D4FEE51CBD4D0600B76E29 /* StationManager.swift in Sources */,
+				45D4FEDC1CBD419400B76E29 /* Contract.swift in Sources */,
+				451B5EEB1CBE8B5D00D77C7F /* StationDetailsPopinViewController.swift in Sources */,
+				45D4FEDF1CBD43F500B76E29 /* Station.swift in Sources */,
+				451A7D6D1CBD072D00C22AC9 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +404,7 @@
 		};
 		451A7D641CBD067E00C22AC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B02C1D76668022498BCFEEC0 /* Pods-velib.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = velib/Info.plist;
@@ -256,6 +416,7 @@
 		};
 		451A7D651CBD067E00C22AC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18CCCF417463C8ABDD777B2C /* Pods-velib.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = velib/Info.plist;
@@ -284,6 +445,7 @@
 				451A7D651CBD067E00C22AC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

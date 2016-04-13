@@ -11,12 +11,12 @@ import UIKit
 import MapKit
 
 protocol BikeSelectionPopinDelegate {
-    func confirmedNumberOfBikes(nbBikes: Int)
+    func confirmedNumberOfBikes(bikeSelectionPopinViewController : BikeSelectionPopinViewController, nbBikes: Int)
 }
 
 protocol StationDetailsPopinDelegate {
-    func moveMapToCoordinates(lat: Double, lng: Double)
-    func isDismissing()
+    func moveMapToCoordinates(stationDetailsPopinViewController : StationDetailsPopinViewController, lat: Double, lng: Double)
+    func isDismissing(stationDetailsPopinViewController : StationDetailsPopinViewController)
 }
 
 
@@ -37,8 +37,8 @@ class RootViewController: UIViewController, MKMapViewDelegate, BikeSelectionPopi
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(RootViewController.locationUpdate(_:)), name: LocationUpdate, object: nil)
         StationManager.read("Paris", success: {
             stations in
-            if let stationList = stations{
-                for station in stationList {
+            if let stations = stations{
+                for station in stations {
                     let stationAnnotation = PointAnnotationStation()
                     let coordinate: CLLocationCoordinate2D = CLLocationCoordinate2D(
                         latitude: station.lat,
@@ -114,21 +114,21 @@ class RootViewController: UIViewController, MKMapViewDelegate, BikeSelectionPopi
     
     // Custom Delegates
     
-    func confirmedNumberOfBikes(nbBikes: Int) {
+    func confirmedNumberOfBikes(bikeSelectionPopinViewController : BikeSelectionPopinViewController, nbBikes: Int) {
         if let loc = location {
             let stations = StationManager.getNearestStationsWithBikesAvailable(loc.coordinate.latitude, lng: loc.coordinate.longitude, nbBikes: nbBikes)
             performSegueWithIdentifier(infosStationSegue, sender: stations.count == 0 ? nil : stations)
         }
     }
     
-    func moveMapToCoordinates(lat: Double, lng: Double) {
+    func moveMapToCoordinates(stationDetailsPopinViewController : StationDetailsPopinViewController, lat: Double, lng: Double) {
         let span = MKCoordinateSpanMake(0.006, 0.006)
         let loc: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: lat, longitude: lng)
         let region = MKCoordinateRegion(center: loc, span: span)
         self.mapView.setRegion(region, animated: true)
     }
     
-    func isDismissing() {
+    func isDismissing(stationDetailsPopinViewController : StationDetailsPopinViewController) {
         bottomButton.hidden = false
     }
     

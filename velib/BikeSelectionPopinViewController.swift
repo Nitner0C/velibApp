@@ -50,7 +50,7 @@ class BikeSelectionPopinViewController: UIViewController {
     
     @IBAction func confirmButtonTouchUp(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
-        delegate?.confirmedNumberOfBikes(nbBikes)
+        delegate?.confirmedNumberOfBikes(self, nbBikes: nbBikes)
     }
     
     @IBAction func decreaseButtonTouchUp(sender: AnyObject) {
